@@ -1,0 +1,101 @@
+
+/* Wide sreens */
+@media only screen and (max-width: 1200px) {
+    .main {
+        width: 950px;
+    }
+    
+    .main-content {
+        padding: 18px;
+    }
+    .contacts {
+        margin-left: 5px;
+    }
+}
+
+/* Medium Devices, Desktops  */ 
+ @media only screen and (max-width: 992px) {
+    .main{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+    } 
+    
+    .photo{
+        width: 100%;
+        margin-top: 2px;
+    }
+ 
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+
+    .about{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-name{
+            font-size: 30px;
+    }
+        
+    .photo{
+        width: 100%;
+        margin-top: 2px;
+    }
+    .about{
+        font-size: 14px;
+        line-height: 18px;
+        width: 100%;
+    }
+
+    .tech-skills, .soft-skills{
+        margin-left: 10px;
+    }
+
+    .contacts {
+        margin-left: 5px;
+    }
+    .contact-link {
+        
+        font-size: 9px;
+    }
+   
+}
+
+     /* Extra small devices, Phones */
+@media only screen and (max-width: 480px) {
+  
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 450px;
+    }
+.sidebar{
+    width: 450px;
+    padding-bottom: 40px;
+    }
+
+.photo{
+    width: 450px;
+    }
+ 
+.contact-link {
+    font-size: 20px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+        /*  */
+}
+
+  
